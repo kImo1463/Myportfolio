@@ -2,6 +2,10 @@ import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 
 const Experience = () => {
+  const openCertificate = (url) => {
+    window.open(url, '_blank');
+  };
+
   return (
     <div id="experience" className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">Experience</h1>
@@ -23,6 +27,7 @@ const Experience = () => {
                 <span className="text-sm text-purple-100">{experience.company}</span>
               </h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>
+
               {experience.technologies.map((tech, techIndex) => (
                 <span
                   key={techIndex}
@@ -31,6 +36,16 @@ const Experience = () => {
                   {tech}
                 </span>
               ))}
+
+              {/* Button for viewing the certificate, if URL exists */}
+              {experience.certificateUrl && (
+                <button
+                  onClick={() => openCertificate(experience.certificateUrl)}
+                  className="mt-4 mb-4 bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-700"
+                >
+                  View Certificate
+                </button>
+              )}
             </div>
           </motion.div>
         ))}

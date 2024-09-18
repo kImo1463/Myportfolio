@@ -8,12 +8,14 @@ import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.I have worked with a variety of technologies, including React,Angular, Next.js, Django, Node.js, PostgreSQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have completed the CS50 Web Programming with Python and JavaScript course from Harvard University, which equipped me with a strong foundation in web development using technologies such as HTML, CSS, Bootstrap, React, JavaScript, Django, Python, and SQLite. As part of this rigorous course, I successfully completed six projects, including a comprehensive final project that challenged me to apply my skills in a real-world context.
+
+In addition to the skills gained from CS50, I have worked with a variety of other technologies, including Angular, Next.js, Node.js, and PostgreSQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "Jun 2022 - October 2022",
-    role: "Intern (fullstack developer) ",
+    role: "Intern (fullstack developer)",
     company: "Jhon Snow Inc (JSI).",
     description: `Assisted in the development of new features 
     for the company's main task, HRIS(human resource information system).`,
@@ -26,20 +28,21 @@ export const EXPERIENCES = [
     description: `I recently completed the CS50 Web Programming with Python and JavaScript 
     course from Harvard University, which provided an in-depth understanding of web development 
     concepts. Throughout the course, I engaged in hands-on learning and completed six projects 
-    that allowed me to apply my knowledge practically`,
-    technologies: ["HTML", "CSS","Javascript", "React.js","Python","Django", "SQLlite"],
+    that allowed me to apply my knowledge practically.`,
+    technologies: ["HTML", "CSS", "Javascript", "React.js", "Python", "Django", "SQLlite"],
+    certificateUrl: "https://certificates.cs50.io/2e4a4610-94fd-4e4d-aade-9546f67cebf2.png?size=letter", // Add this line
+
   },
   {
     year: "September 2020 - July 2023",
-    role: "Computer Science Student ",
+    role: "Computer Science Student",
     company: "Hawassa University",
     description: `Since 2021, I have been dedicated to developing my skills through 
-    personal and course based projects that challenge me and allow me to apply my knowledge in real-world scenarios.
-     I believe that hands-on experience is vital for growth, and I've been working on 
+    personal and course-based projects that challenge me and allow me to apply my knowledge in real-world scenarios.
+    I believe that hands-on experience is vital for growth, and I've been working on 
     a variety of projects that encompass different aspects of Software development.`,
-    technologies: ["Programing languages", "Software development methodologies", "Computer architecture", "Computer networking",],
+    technologies: ["Programming languages", "Software development methodologies", "Computer architecture", "Computer networking"],
   },
-
 ];
 
 export const PROJECTS = [
